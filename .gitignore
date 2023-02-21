@@ -23,3 +23,4 @@ user.props
 
 # MacOS desktop metadata files
 .DS_Store
+ports/esp32/dependencies.lock

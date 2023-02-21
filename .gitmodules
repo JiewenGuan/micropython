@@ -56,3 +56,9 @@
 [submodule "lib/micropython-lib"]
 	path = lib/micropython-lib
 	url = https://github.com/micropython/micropython-lib.git
+[submodule "lib/ulab"]
+	path = lib/ulab
+	url = https://github.com/v923z/micropython-ulab.git
+[submodule "lib/microdot"]
+	path = lib/microdot
+	url = https://github.com/miguelgrinberg/microdot.git

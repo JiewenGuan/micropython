@@ -18,7 +18,9 @@ PYTHON ?= python3
 # it), but on ESP32 the same trick doesn't work because "idf.py build" fails
 # on berkeley-db dependency before printing out the submodule list.
 # For now just force the submodule dependencies here.
-GIT_SUBMODULES += lib/berkeley-db-1.xx lib/micropython-lib
+GIT_SUBMODULES += lib/berkeley-db-1.xx lib/micropython-lib 
+GIT_SUBMODULES += lib/ulab
+GIT_SUBMODULES += lib/microdot
 
 .PHONY: all clean deploy erase submodules FORCE
 
